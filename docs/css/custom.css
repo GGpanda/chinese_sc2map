@@ -1,0 +1,32 @@
+/* RTD fixes */
+
+/* fix lack of scrollbar on navbar */
+
+.wy-nav-side {
+    overflow-y: auto;
+}
+.wy-side-scroll {
+    height: auto;
+}
+
+.rst-versions .rst-current-version {
+    padding: 0 12px !important;
+}
+
+
+
+/* border on caption of images */
+
+a + em,
+img + em {
+    /* font-style: normal; */
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+
+p > img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
